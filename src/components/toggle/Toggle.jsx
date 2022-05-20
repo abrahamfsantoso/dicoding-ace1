@@ -1,6 +1,4 @@
 import "./toggle.css";
-import Sun from "../../img/sun.png";
-import Moon from "../../img/moon.png";
 import { useContext } from "react";
 import { ThemeContext } from "../../context";
 
@@ -12,8 +10,8 @@ const Toggle = () => {
   };
   return (
     <div className="t">
-      <img src={Sun} alt="" className="t-icon" />
-      <img src={Moon} alt="" className="t-icon" />
+      <img src='https://storage.googleapis.com/projectdicoding1/sun.png' alt="" className="t-icon" />
+      <img src='https://storage.googleapis.com/projectdicoding1/moon.png' alt="" className="t-icon" />
       <div
         className="t-button"
         onClick={handleClick}

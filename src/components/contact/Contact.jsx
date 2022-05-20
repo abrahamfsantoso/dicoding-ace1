@@ -1,7 +1,4 @@
 import './contact.css';
-import Phone from '../../img/phone.png';
-import Email from '../../img/email.png';
-import Address from '../../img/address.png';
 import { useContext, useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import { ThemeContext } from '../../context';
@@ -40,15 +37,15 @@ const Contact = () => {
           <h1 className='c-title'>Let's connect!</h1>
           <div className='c-info'>
             <div className='c-info-item'>
-              <img src={Phone} alt='' className='c-icon' />
+              <img src='https://storage.googleapis.com/projectdicoding1/phone.png' alt='' className='c-icon' />
               +62 813 181 056 06
             </div>
             <div className='c-info-item'>
-              <img className='c-icon' src={Email} alt='' />
+              <img className='c-icon' src='https://storage.googleapis.com/projectdicoding1/email.png' alt='' />
               abrahamfsantoso@gmail.com
             </div>
             <div className='c-info-item'>
-              <img className='c-icon' src={Address} alt='' />
+              <img className='c-icon' src='https://storage.googleapis.com/projectdicoding1/address.png' alt='' />
               Banten, Indonesia
             </div>
           </div>
